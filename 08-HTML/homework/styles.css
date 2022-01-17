@@ -1,0 +1,19 @@
+#spanId{
+    color: red;
+    font-size: 18px;
+    margin: 50px;
+}
+h1{
+    color: rgb(109, 170, 19);
+}
+img{
+    width: 400px;  
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: indigo;
+    padding: 50px;
+    border: 6px solid rgb(207, 15, 25);
+
+}
