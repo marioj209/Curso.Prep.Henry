@@ -57,5 +57,10 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 #ejercicioSiete{
-    display: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  align-self: auto;
+
 }
