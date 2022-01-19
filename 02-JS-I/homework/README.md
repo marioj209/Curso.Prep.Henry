@@ -4,11 +4,11 @@
 ---
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-	* Variables
-	* Strings
-	* Funciones (argumentos, `return`)
-	* Declaraciones `if`
-	* Valores booleanos (`true`, `false`)
+	* Variables es una forma de almacenar algo que se usara despues
+	* Strings Es un conjunto de caracteres, incluye numeros,letras,caracteres especiales,ect.
+	* Funciones (argumentos, `return`) . Una función es un conjunto reutilizable de declaraciones para realizar una tarea
+	* Declaraciones `if`el if me dice que si sucede cierta condicion va a hacer algo
+	* Valores booleanos (`true`, `false`) tipo de dato logico representa valores del tipo binario,que puede tomar dos posibles valores, en este caso "VERDADERO" o "FALSO".
 
 
 2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
