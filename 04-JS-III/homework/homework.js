@@ -123,6 +123,14 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  var producto = 1;
+  if (arguments.length < 1) {
+    return 0;
+  }
+  for (let i = 0; i < arguments.length; i++) {
+    producto= producto*arguments[i];
+  }
+  return producto;
 }
 
 
@@ -215,9 +223,11 @@ function breakStatement(numero) {
   var array= [];
   var suma = numero;
   for (var i = 0; i < 10; i++) {
+    suma = suma +2 ;
+    
     if (suma === i) break;
+    
     else{
-      suma = suma +2;
       array.push(suma);
     }
   }
@@ -243,11 +253,11 @@ function continueStatement(numero) {
   for(var i = 0; i < 10; i++){
     if(i === 5) continue;
     else{
-      suma = suma + 2 ;
+      suma = suma + 2;
       array.push(suma);
     }
   }
-  return array;
+  return array
 }
 
 
