@@ -60,6 +60,7 @@ function map(array, cb) {
     return cb(x);
   });
   return nuevoArray;
+  /* */
 }
 
 function filter(array) {
@@ -72,6 +73,14 @@ function filter(array) {
     }
   });
   return filtro;
+  /*var nuevoArray =[];
+    for(var i = 0; i < array.length; i++){
+      if (array[i][0] === "a"){
+        nuevoArray.push(array[i]);
+      }
+    }
+    return nuevoArray;
+   */
 }
 
 // No modificar nada debajo de esta línea
